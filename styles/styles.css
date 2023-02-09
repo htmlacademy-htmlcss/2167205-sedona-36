@@ -38,6 +38,18 @@ body {
   text-align: center;
 }
 
+.button-main {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 8px 50px;
+  background: #756157;
+  border: #ffffff 0px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
 .main-index {
 color: #000000;
 background-color: #ffffff;
@@ -50,11 +62,28 @@ background-color: #ffffff;
 }*/
 
 .advantages {
+  color:#333333;
   background-color: #ffffff;
-  color: #000000;
   font-family: "PT sans", sans-serif;
-  font-size: 22px;
+}
+
+.advantages-header-title{
+  color:#000000;
+  font-size: 30px;
   line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.advantages p:only-child {
+line-height: 26px;
+font-size: 22px;
+font-weight: 400;
+}
+
+.advantages-list{
+  text-align: center
 }
 
 .advantages-title {
@@ -62,8 +91,8 @@ background-color: #ffffff;
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
-  text-align: center;
-  vertical-align: top;
+  text-transform: uppercase;
+
 }
 
 .advantages-description{
@@ -71,9 +100,6 @@ background-color: #ffffff;
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
-  text-align: center;
-  vertical-align: top;
-  color: #333333;
 }
 
 .advantages li{
@@ -95,5 +121,41 @@ background-color: #ffffff;
 }
 
 .facilities {
+  color: #333333;
+  background-color: #ffffff;
+  text-align: center;
+}
 
+.facilities-header-title {
+  font-family: "PT sans", sans-serif;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.facilities-list li:not(li:nth-child(2)) {
+  background: rgba(131, 179, 211, 0.12);
+}
+
+.search {
+  text-align: center;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #333333;
+}
+
+.search-header-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.button-main-search {
+  font-size: 20px;
+  line-height: 36px;
 }
