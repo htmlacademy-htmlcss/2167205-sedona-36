@@ -27,7 +27,7 @@ body {
   background: #ffffff;
 }
 
-.navigation-link {
+.navigation-link, .navigation-user-link {
   font-family: "PT sans", sans-serif;
   font-size: 20px;
   line-height: 24px;
@@ -36,4 +36,64 @@ body {
   text-decoration: none;
   text-transform: capitalize;
   text-align: center;
+}
+
+.main-index {
+color: #000000;
+background-color: #ffffff;
+}
+
+/*.intro {
+  background-image: url("../image/intro/intro-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}*/
+
+.advantages {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: "PT sans", sans-serif;
+  font-size: 22px;
+  line-height: 36px;
+}
+
+.advantages-title {
+  font-family: "PT sans", sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-align: center;
+  vertical-align: top;
+}
+
+.advantages-description{
+  font-family: "PT sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: top;
+  color: #333333;
+}
+
+.advantages li{
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-list li:first-child{
+  background-color: #82B3D3;
+  color: #ffffff;
+}
+
+.advantages-list li:last-child{
+  background-color: #82B3D3;
+  color:#ffffff;
+}
+
+.advantages-list li:nth-child(4){
+  background-color:rgba(131, 179, 211, 0.2);
+}
+
+.facilities {
+
 }
