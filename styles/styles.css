@@ -14,7 +14,7 @@
   font-display: swap;
 }
 
-body {
+.body {
   font-family: "PT sans", sans-serif;
   font-size: 18px;
   line-height: 24px;
@@ -45,7 +45,7 @@ body {
   color: #ffffff;
   padding: 8px 50px;
   background: #756157;
-  border: #ffffff 0px;
+  border: none;
   border-radius: 4px;
   text-transform: uppercase;
 }
@@ -100,29 +100,21 @@ font-weight: 400;
 
 }
 
-.advantages-description{
-  font-family: "PT sans", sans-serif;
-  font-size: 18px;
-  line-height: 21px;
-  font-weight: 400;
+.blue-theme{
+  color:#ffffff;
+  background: #82B3D3;
 }
 
-.advantages li{
-  background-color: rgba(131, 179, 211, 0.12);
-}
-
-.advantages-list li:first-child{
-  background-color: #82B3D3;
-  color: #ffffff;
-}
-
-.advantages-list li:last-child{
-  background-color: #82B3D3;
+.blue-theme-title {
   color:#ffffff;
 }
 
-.advantages-list li:nth-child(4){
-  background-color:rgba(131, 179, 211, 0.2);
+.light-theme{
+  background: rgba(131, 179, 211, 0.12);
+}
+
+.light-blue-theme{
+  background: rgba(131, 179, 211, 0.2);
 }
 
 .facilities {
@@ -131,10 +123,10 @@ font-weight: 400;
   text-align: center;
 }
 
-
-.facilities-list li:not(li:nth-child(2)) {
-  background: rgba(131, 179, 211, 0.12);
+.facilities-title {
+  color:#000000;
 }
+
 
 .search {
   text-align: center;
@@ -159,4 +151,25 @@ font-weight: 400;
 
 .newslatter-title {
   color:#ffffff;
+}
+
+.newslatter-form-email {
+  background: #F2F2F2;
+  border-radius: 4px 0px 0px 4px;
+}
+
+.newslatter-button {
+  font-size: 20px;
+  line-height: 36px;
+  background: #82B3D3;
+  border-radius: 0px 4px 4px 0px;
+}
+
+.footer-phone-number {
+  color: #000000;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-decoration: none;
 }
