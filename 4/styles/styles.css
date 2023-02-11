@@ -1,0 +1,175 @@
+@font-face {
+  font-family: "PT sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+.body {
+  font-family: "PT sans", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #333333;
+  background-color: #ffffff;
+}
+
+.page-header {
+  color: #000000;
+  background: #ffffff;
+}
+
+.navigation-link, .navigation-user-link {
+  font-family: "PT sans", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: inherit;
+  text-decoration: none;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.button-main {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 8px 50px;
+  background: #756157;
+  border: none;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.main-index {
+color: #000000;
+background-color: #ffffff;
+}
+
+.title {
+  font-family: 'PT Sans' sans-serif;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000000;
+  }
+
+/*.intro {
+  background-image: url("../image/intro/intro-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}*/
+
+.advantages {
+  color:#333333;
+  background-color: #ffffff;
+  font-family: "PT sans", sans-serif;
+}
+
+.advantages-header-title{
+   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.advantages p:only-child {
+line-height: 26px;
+font-size: 22px;
+font-weight: 400;
+}
+
+.advantages-list{
+  text-align: center
+}
+
+.advantages-title {
+  font-family: "PT sans", sans-serif;
+  color:#000000;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+}
+
+.blue-theme{
+  color:#ffffff;
+  background: #82B3D3;
+}
+
+.blue-theme-title {
+  color:#ffffff;
+}
+
+.light-theme{
+  background: rgba(131, 179, 211, 0.12);
+}
+
+.light-blue-theme{
+  background: rgba(131, 179, 211, 0.2);
+}
+
+.facilities {
+  color: #333333;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.facilities-title {
+  color:#000000;
+}
+
+
+.search {
+  text-align: center;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #333333;
+}
+
+.button-main-search {
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.newslatter {
+  color:#ffffff;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  background: url("/image/newslatter-background.jpg") no-repeat;
+}
+
+.newslatter-title {
+  color:#ffffff;
+}
+
+.newslatter-form-email {
+  background: #F2F2F2;
+  border-radius: 4px 0px 0px 4px;
+}
+
+.newslatter-button {
+  font-size: 20px;
+  line-height: 36px;
+  background: #82B3D3;
+  border-radius: 0px 4px 4px 0px;
+}
+
+.footer-phone-number {
+  color: #000000;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
