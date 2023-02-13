@@ -14,6 +14,19 @@
   font-display: swap;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .body {
   font-family: "PT sans", sans-serif;
   font-size: 18px;
@@ -69,10 +82,6 @@
   color:#333333;
   background-color: #ffffff;
   font-family: "PT sans", sans-serif;
-}
-
-.advantages-header-title{
-   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .advantages p:only-child {
@@ -153,11 +162,13 @@ font-weight: 400;
 }
 
 .newslatter-form-email {
+  font-family: "PT sans" sans-serif;
   background-color: #F2F2F2;
   border-radius: 4px 0px 0px 4px;
 }
 
 .newslatter-button {
+  font-family: "PT sans" sans-serif;
   font-size: 20px;
   line-height: 36px;
   background-color: #82B3D3;
