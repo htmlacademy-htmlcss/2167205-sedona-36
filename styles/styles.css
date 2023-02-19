@@ -30,7 +30,7 @@
 .body {
   font-family: "PT sans", sans-serif;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 21px;
   color: #333333;
   background-color: #ffffff;
 }
@@ -70,7 +70,7 @@
 }
 
 .title {
-  font-family: 'PT Sans' sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -82,16 +82,13 @@
   color:#333333;
   background-color: #ffffff;
   font-family: "PT sans", sans-serif;
+  text-align: center;
 }
 
-.advantages p:only-child {
+.advantages-header  {
 line-height: 26px;
 font-size: 22px;
 font-weight: 400;
-}
-
-.advantages-list{
-  text-align: center
 }
 
 .advantages-title {
@@ -103,6 +100,12 @@ font-weight: 400;
   text-transform: uppercase;
 
 }
+
+.advantages-decription {
+  line-height: 26px;
+  font-size: 22px;
+  font-weight: 400;
+  }
 
 .blue-theme{
   color:#ffffff;
@@ -121,16 +124,11 @@ font-weight: 400;
   background-color: rgba(131, 179, 211, 0.2);
 }
 
-.facilities {
-  color: #333333;
+.decription {
+  color:#333333;
   background-color: #ffffff;
-  text-align: center;
+  font-family: "PT sans", sans-serif;
 }
-
-.facilities-title {
-  color:#000000;
-}
-
 
 .search {
   text-align: center;
@@ -146,7 +144,9 @@ font-weight: 400;
 }
 
 .newslatter {
+  font-family: "PT sans", sans-serif;
   color:#ffffff;
+  text-align: center;
   font-size: 22px;
   line-height: 26px;
   font-weight: 400;
@@ -158,17 +158,21 @@ font-weight: 400;
 }
 
 .newslatter-form {
-  font-family: "PT sans" sans-serif;
+  font-family: "PT sans", sans-serif;
 }
 
 .newslatter-form-email {
-  font-family: "PT sans" sans-serif;
   background-color: #F2F2F2;
   border-radius: 4px 0px 0px 4px;
 }
 
+.newslatter-form-email::-webkit-input-placeholder {
+  color:red; /*цвет добавлен для проверки работы css правила*/
+  font-family: "PT sans", sans-serif;
+}
+
 .newslatter-button {
-  font-family: "PT sans" sans-serif;
+  font-family: "PT sans", sans-serif;
   font-size: 20px;
   line-height: 36px;
   background-color: #82B3D3;
