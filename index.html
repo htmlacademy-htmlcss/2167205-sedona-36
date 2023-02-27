@@ -7,10 +7,10 @@
   </head>
   <body class="body">
     <header class="page-header">
-      <a class="logo" href="index.html">
-        <img class="page-header-logo" src="image/header/logo.svg" width="140px" height="70.05px" alt="логотип Седона">
-      </a>
       <nav class="navigation">
+        <a class="navigation-logo" href="index.html">
+          <img class="page-header-logo" src="image/header/logo.svg" width="140px" height="70.05px" alt="логотип Седона">
+        </a>
             <ul class="navigation-list">
                 <li class="navigation-item">
                     <a class="navigation-link navigation-link-current" href="index.html">Главная</a>
@@ -22,7 +22,7 @@
                     <a class="navigation-link" href="catalog.html">Гостиницы</a>
                 </li>
             </ul>
-            <ul class="navigation-user">
+            <ul class="navigation-list navigation-user">
                 <li class="navigation-user-item">
                     <a class="navigation-link navigation-user-link navigation-user-link-search " href="#">
                       <img class="navigation-user-link-search-icon" src="image/header/search.svg" width="18px" height="18px" alt="Поиск">
@@ -43,14 +43,15 @@
             </ul>
       </nav>
     </header>
-    <main class="main-index">
+    <main class="main-container main-index">
+      <div class="page-container">
         <section class="intro">
             <h1 class="visually-hidden">О Седоне</h1>
             <div class="intro-background-image">
               <img src="image/intro/intro-background.jpg" width="1200px" height="485px" alt="Горы">
             </div>
             <div class="intro-text">
-              <img src="image/intro/welcome.svg" width="458px" height="352px" alt="Welcome to the georgeous Sedona, because the Grand Canyon sucks!">
+              <img class="intro-logo" src="image/intro/welcome.svg" width="458px" height="352px" alt="Welcome to the georgeous Sedona, because the Grand Canyon sucks!">
             </div>
         </section>
         <section class="advantages">
@@ -59,13 +60,13 @@
               заслуживающий большего!</h2>
             <p>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
           </header>
-          <article class="advantages-article">
+          <article class="advantages-list">
             <div class="advantages-item blue-theme">
                 <h3 class="advantages-title blue-theme-title">Настоящий городок</h3>
                 <p class="advantages-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
             </div>
             <div class="advantages-item advantages-item-image">
-                <img class="advantages-image" src="image/Sedona-city.jpg" width="800px" height="384px" alt="Фотография улицы Седоны">
+                <img class="advantages-list-image" src="image/Sedona-city.jpg" width="800px" height="385px" alt="Фотография улицы Седоны">
             </div>
           </article>
           <ul class="advantages-list">
@@ -84,7 +85,7 @@
           </ul>
           <article class="advantages-list">
               <div class="advantages-item advantages-item-image">
-                  <img class="advantages-image" src="image/devil`s-bridge.jpg" width="800px" height="385px" alt="Мост дьявола">
+                  <img class="advantages-list-image" src="image/devil`s-bridge.jpg" width="800px" height="385px" alt="Мост дьявола">
               </div>
               <div class="advantages-item blue-theme">
                   <h3 class="advantages-title blue-theme-title">Там есть мост дьявола</h3>
@@ -92,7 +93,6 @@
               </div>
           </article>
           <article class="advantages-decription">
-            <!--отредактированная секция, сверить с CSS -->
             <h2 class="title">Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
             <p>Опытный персонал и качественное обслуживание!</p>
           </article>
@@ -117,13 +117,13 @@
               </li>
           </ul>
         </section>
-      <section class="search">
+        <section class="search">
           <h2 class="search-header-title title">Заинтересовались?</h2>
           <p class="search-header-notation">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
           <!--ссылка с заглушкой-->
           <a class="button-main button-main-search" href="#">ПОИСК ГОСТИНИЦЫ В седоне</a>
-      </section>
-      <section class="newslatter">
+        </section>
+        <section class="newslatter">
           <h2 class="title newslatter-title">Подпишитесь на рассылку</h2>
           <p class="newslatter-notation">Только полезная информация и никакого спама, честное бойскаутское!</p>
           <form class="newslatter-form" action="https://echo.htmlacademy.ru/" method="post">
@@ -131,9 +131,11 @@
               <input class="newslatter-form-email" type="email" name="email" placeholder="Ваш e-mail" id="newslatter-email">
               <input class="button-main newslatter-button" type="submit" value="Подписаться">
             </form>
-      </section>
+        </section>
+      </div>
     </main>
     <footer class="main-footer">
+      <div class="footer-container">
         <section class="footer-social">
             <h2 class="visually-hidden">Наши соцсети</h2>
             <ul class="footer-social-list">
@@ -167,6 +169,7 @@
                 <img class="page-footer-autor-logo" src="image/footer/HTML-Academy-logo.svg" width="114.9px" height="32.9px" alt="html.academy">
             </a>
         </section>
+      </div>
     </footer>
 </body>
 </html>
