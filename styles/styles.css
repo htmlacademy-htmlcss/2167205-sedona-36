@@ -170,9 +170,10 @@ html {
   line-height: 28px;
   font-weight: 700;
   text-transform: uppercase;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   margin-bottom: 30px;
+  max-width: 175px;
 }
 
 .advantages-list {
@@ -245,10 +246,14 @@ html {
   line-height: 26px;
 }
 
+.advantages-description-image {
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
 .advantages-description-section-title {
   margin: 0;
   padding: 0;
-  margin-bottom: 20px;
 }
 
 .advantages-description-section-explanation {
@@ -257,7 +262,15 @@ html {
 }
 
 .advantages-description-item {
-  padding: 112.5px 85px;
+  padding: 81px 85px;
+}
+
+.advantages-description-title {
+  margin-bottom: 30px;
+}
+
+.advantages-description-explanation {
+  margin: 0;
 }
 
 .search {
@@ -266,6 +279,18 @@ html {
   line-height: 26px;
   font-weight: 400;
   color: #333333;
+  max-width: 592px;
+  margin: 96px 304px;
+}
+
+.search-header-title {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.search-header-notation {
+  margin: 0;
+  margin-bottom: 54px;
 }
 
 .button-main-search {
@@ -285,6 +310,8 @@ html {
 
 .newslatter-title {
   color:#ffffff;
+  margin: 0;
+  padding: 0;
 }
 
 .newslatter-form {
