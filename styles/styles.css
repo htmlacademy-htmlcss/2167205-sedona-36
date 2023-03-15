@@ -306,16 +306,30 @@ html {
   line-height: 26px;
   font-weight: 400;
   background: url("../image/newslatter-background.jpg") no-repeat;
+  background-position: center top;
+}
+
+.newslatter-wrapp {
+  max-width: 475px;
+  margin: 0 auto;
+  padding: 96px 362.5px 54px;
 }
 
 .newslatter-title {
   color:#ffffff;
   margin: 0;
   padding: 0;
+  margin-bottom: 20px;
+}
+
+.newslatter-notation {
+  margin: 0;
+  padding: 0;
 }
 
 .newslatter-form {
   font-family: "PT sans", sans-serif;
+  padding-bottom: 104px;
 }
 
 .newslatter-form-email {
@@ -345,6 +359,8 @@ html {
   display: flex;
   width: 1200px;
   margin: 0 auto;
+  padding: 40px 70px 30px;
+  max-width: 1060px;
 }
 
 .footer-social {
@@ -353,10 +369,34 @@ html {
 }
 
 .footer-social-list {
+  display: flex;
+  flex-wrap: wrap;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 182px;
+}
+
+.footer-social-item {
+  display: block;
+}
+
+.footer-social-item:nth-child(1) {
+  padding: 13px 12px;
+}
+
+.footer-social-item:nth-child(2) {
+  padding: 12px 15px;
+}
+
+.footer-social-item:nth-child(3) {
+  padding: 12px 13px;
+
 }
 
 .footer-phone-number {
+  display: block;
+  text-align: center;
   color: #000000;
   font-weight: 400;
   font-size: 40px;
